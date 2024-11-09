@@ -1,0 +1,16 @@
+.empty-todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .empty-todos .empty-typing {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    font-size: 1.5rem;
+    color: #ff6200; /* Color cian brillante */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  

@@ -1,0 +1,33 @@
+.CreateTodoButtom {
+    position: fixed;
+    right: 500px;
+    background-color: #f5741c;
+    color: white;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+    
+  }
+  
+  .CreateTodoButtom:hover {
+    transform: rotate(224deg) scale(1.1); /* Gira y aumenta un poco de tamaño */
+
+  }
+  
+  .CreateTodoButtom:active {
+     /* Tamaño un poco más pequeño al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Sombra más tenue */
+  }
+  
+
+  @media (max-width: 600px) {
+    .CreateTodoButtom {
+      position: relative;
+      left: 190px;
+    }
+  }

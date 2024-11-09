@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+
+}
+
+form {
+    width: 90%;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF6200; /* Color naranja */
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    background-color: #FFFFFF;
+    border: 2px solid #FF6200;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    color: #202329;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;
+    height: 100px;
+    width: calc(100% - 20px);
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #FFB380; /* Naranja claro */
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+textarea:focus {
+    outline-color: #FF6200;
+}
+
+.TodoForm-buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.TodoForm-button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 120px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.TodoForm-button--add {
+    background: #FF6200;
+    color: white;
+    box-shadow: 0px 4px 12px rgba(255, 98, 0, 0.4);
+    width: 100px;;
+    border-radius: 20px;
+    border: 2px solid #FF6200;
+    
+}
+
+.TodoForm-button--add:hover {
+    background: #e85a00;
+    transform: translateY(-2px);
+}
+
+.TodoForm-button--cancel {
+    background: #FFFFFF;
+    color: #FF6200;
+    border: 2px solid #FF6200;
+    width: 100px;;
+    border-radius: 20px;
+}
+
+.TodoForm-button--cancel:hover {
+    background: #FFF1E5;
+    transform: translateY(-2px);
+}

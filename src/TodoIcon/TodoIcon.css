@@ -1,0 +1,67 @@
+.Icon-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    /* background-color: #CCC; */
+  }
+  
+  /* Estilo para el primer span (con "V") */
+  .Icon-container-check span:first-child {
+    color: black; 
+    cursor: pointer;
+    transition: color 0.2s ease; /* Transición suave */
+  
+  }
+  
+  .Icon-container:hover {
+    color: #05e105; /* Verde más claro al pasar el mouse */
+    font-weight: 800;
+  }
+  
+  .Icon-container-check:first-child:active {
+    color: #07b607; /* Verde oscuro al hacer clic */
+  }
+  
+  .Icon-container-check--active {
+    color: #4caf50;
+  }
+  
+  /* Estilo para el segundo span (con "X") */
+  .Icon-container-delete:last-child {
+    color: #ff0000; /* Rojo */
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  
+  .Icon-container-delete:last-child:hover {
+    color: #ff0000; /* Rojo */
+    font-weight: 800;
+    cursor: pointer;
+
+  }
+  .Icon-container-delete:last-child:active {
+    color: #ca0404; /* Rojo */
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+    
+  .Icon-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .Icon-container-delete:last-child:hover .Icon-svg {
+    fill: #ff0000; /* Rojo */
+  }
+
+  .Icon-container:hover .Icon-svg {
+    fill: #07b607; /* Verde más claro al pasar el mouse */
+    font-weight: 800;
+  }

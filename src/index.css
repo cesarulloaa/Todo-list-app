@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f5741c;
+  background:linear-gradient(90.21deg, rgb(255, 255, 255) -5.91%, rgb(255, 170, 1) 111.58%);
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+/*
+    position: relative;
+    left: 190px;
+    background-color: #f5741c;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 40px;
+
+
+*/

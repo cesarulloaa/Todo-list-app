@@ -1,0 +1,9 @@
+.typing {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    color: #ff6200; /* Color cian brillante */
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: glow 1.5s ease-in-out infinite;
+  }
+
