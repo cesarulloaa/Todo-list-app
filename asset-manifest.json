@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/css/main.b4c70daf.css",
+    "main.js": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/js/main.92335ae9.js",
+    "index.html": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/index.html",
+    "static/media/delete.svg": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.b4c70daf.css.map": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/css/main.b4c70daf.css.map",
+    "main.92335ae9.js.map": "/Users/Cesar/Documents/curso-react-intro-01-que-es-componente/build/static/js/main.92335ae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c70daf.css",
+    "static/js/main.92335ae9.js"
+  ]
+}
